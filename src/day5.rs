@@ -54,7 +54,6 @@ pub fn run() {
         let min = *locs_2.iter().min().unwrap();
         locs_2.clear();
         locations_2.push(min);
-        println!("{}", seeds_c.len())
     }
 
     println!("--5-- Part Two {}", locations_2.iter().min().unwrap());
